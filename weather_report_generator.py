@@ -56,8 +56,6 @@ plt.plot(city,wind1)
 plt.savefig('Example1.png')
 plt.show()
 
-
-
 plt.pie(rain1, labels=city, radius=1.2,autopct='%0.01f%%', shadow=True)
 plt.savefig('Example2.png')
 plt.show()
